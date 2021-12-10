@@ -28,7 +28,7 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "concurrently  \"json-server  -H 192.168.1.52 -p 8000 --watch ./data/db.json\" \"npm -p -r run start\"",
+    "start": "concurrently  \"json-server  -H 192.168.1.52 -p 8000 --watch ./data/db.json\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
